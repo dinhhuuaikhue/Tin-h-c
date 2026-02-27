@@ -8,15 +8,15 @@
   background-color: yellow;
 }
 .menu{
-  flex: 5%
+  flex: 5%;
   background-color: lightgreen;
 }
 .content{
-  flex: 70%
+  flex: 70%;
   background-color: blue;
 }
 .footer{
-  flex: 10%
+  flex: 10%;
   background-color: green;
 }
 h1 { 
