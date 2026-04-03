@@ -7,13 +7,6 @@
   flex: 15%;
   background-color: url("images/177278096913.png") center / 100%;
   aspect-ratio: 6 / 1;
-  overflow: hidden;
-}
-.header img {
-  width: 80%;
-  height: 60%;
-  object-fit: cover;   
-  display: block;
 }
 .menu{
   flex: 5%;
