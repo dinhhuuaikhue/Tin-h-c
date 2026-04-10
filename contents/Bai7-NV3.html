@@ -4,8 +4,8 @@
   <script>
 let pp = new URLSearchParams(window.location.search);
 let ten = pp.get("txtTen");
-let yk = pp.get("txtYk");
-document.getElementById("kq").innerHTML = "Cảm ơn bạn " + ten + " đã góp ý <br><br> Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới:<br>" + yk ; 
+let yk = pp.get("txtComment");
+document.getElementById("kq").innerHTML = "Cảm ơn bạn " + ten + " đã góp ý <br><br> Chúng tôi xin ghi nhận ý kiến của bạn như sau và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới:<br>" + yk ; 
 </script>
     <form action = "Bai7-NV2.html"> 
       <input type= "submit" name= "cmd" value= "Quay lại">
